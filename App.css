@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+.App {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgba(78, 72, 72, 0.582);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p,
+h1 {
+  cursor: default;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
